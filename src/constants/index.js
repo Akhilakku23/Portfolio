@@ -10,13 +10,13 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 
 export const PROJECTS = [
-  {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["React.js, Node.js, Express.js, MongoDB"],
-  },
+  // {
+  //   title: "E-Commerce Website",
+  //   image: project1,
+  //   description:
+  //     "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+  //   technologies: ["React.js, Node.js, Express.js, MongoDB"],
+  // },
   
   {
     title: "Portfolio Website",
