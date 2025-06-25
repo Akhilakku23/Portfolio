@@ -15,7 +15,7 @@ const Navbar = () => {
       {/* Social Media Links */}
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
         <a
-          href="https://www.linkedin.com/in/akhil-saji-7027892b5/"
+          href="https://www.linkedin.com/in/aneena-shyjan-607748320/"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
@@ -25,7 +25,7 @@ const Navbar = () => {
         </a>
 
         <a
-          href="https://github.com/Akhilakku23"
+          href="https://github.com/copilot/c/eb606233-d3e1-4ef1-b5be-5e0e31afdcb7"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub"
@@ -34,18 +34,10 @@ const Navbar = () => {
           <FaGithub />
         </a>
 
-        <a
-          href="https://x.com/AkkuA69308"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Twitter"
-          className="hover:text-blue-400 transition-colors"
-        >
-          <FaTwitter />
-        </a>
+
 
         <a
-          href="https://www.instagram.com/akhi_l._?igsh=MWVvcjQ3ODQ2N2Ztag=="
+          href="https://www.instagram.com/___a_n_e_e_n_a____?utm_source=qr&igsh=c2JrYnM1cnc5bWs4"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Instagram"

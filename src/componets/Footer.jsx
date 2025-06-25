@@ -7,7 +7,7 @@ const Footer = () => {
         {/* Social Media Links */}
         <div className="flex justify-center space-x-6 mb-6">
           <a
-            href="https://www.linkedin.com/in/akhil-saji-7027892b5/"
+            href="https://www.linkedin.com/in/aneena-shyjan-607748320/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
@@ -16,7 +16,7 @@ const Footer = () => {
             <FaLinkedin />
           </a>
           <a
-            href="https://github.com/Akhilakku23"
+            href="https://github.com/copilot/c/eb606233-d3e1-4ef1-b5be-5e0e31afdcb7"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
@@ -25,7 +25,7 @@ const Footer = () => {
             <FaGithub />
           </a>
           <a
-            href="https://www.instagram.com/akhi_l._/"
+            href="https://www.instagram.com/___a_n_e_e_n_a____?utm_source=qr&igsh=c2JrYnM1cnc5bWs4"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
@@ -33,21 +33,12 @@ const Footer = () => {
           >
             <FaInstagram />
           </a>
-          <a
-            href="https://twitter.com/AkkuA69308"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Twitter"
-            className="text-xl hover:text-blue-400"
-          >
-            <FaTwitter />
-          </a>
         </div>
 
        
         {/* Copyright */}
         <p className="text-sm text-gray-400">
-          &copy; 2025 Akhil Saji. All rights reserved.
+          &copy; 2025 Aneena Shyjan. All rights reserved.
         </p>
       </div>
     </footer>

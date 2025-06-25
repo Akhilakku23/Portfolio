@@ -11,8 +11,8 @@ const Contact = () => {
           <p>{CONTACT.phoneNo}</p>
         </address>
 
-        <a href="mailto:akhilsaji0031@gmail.com" className='hover:underline'>
-                    akhilsaji0031@gmail.com
+        <a href="mailto:aneenashyjan@gmail.com" className='hover:underline'>
+                    <p>{CONTACT.email}</p>
         </a>
       </div>
     </div>

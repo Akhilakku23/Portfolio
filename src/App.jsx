@@ -6,6 +6,7 @@ import Experience from "./componets/Experience";
 import Services  from "./componets/Services";
 import Contact from "./componets/Contact";
 import Footer from "./componets/Footer";
+import Education from "./componets/Education";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
   <Navbar/>
   <Hero/>
   <Technologies/>
+  <Education />
   <Project/>
   <Experience/>
   <Services/>

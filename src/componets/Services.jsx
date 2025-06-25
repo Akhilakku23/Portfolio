@@ -94,9 +94,9 @@ const Services = () => {
             front-end and back-end technologies seamlessly.
           </p>
           <ul className="list-disc pl-6 text-gray-600 mt-4">
-            <li>React.js for dynamic UIs</li>
+            <li>Angular for dynamic UIs</li>
             <li>Node.js and Express for back-end</li>
-            <li>MongoDB for efficient data storage</li>
+            <li>MySql for efficient data storage</li>
           </ul>
           <a
             href="#contact"
@@ -129,7 +129,7 @@ const Services = () => {
             <li>Responsive and mobile-first design</li>
           </ul>
           <a
-            href="mailto:your-email@example.com"
+            href="mailto:aneenashyjan@example.com"
             className="mt-4 inline-block bg-blue-500 text-white p-3 rounded-full"
           >
             Get in Touch

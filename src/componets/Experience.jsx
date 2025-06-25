@@ -1,9 +1,8 @@
-import { FaReact, FaNodeJs } from 'react-icons/fa';
-import { SiMongodb } from 'react-icons/si';
-import { motion } from 'framer-motion';
-import { SiExpress } from 'react-icons/si';
+import { SiPython, SiNumpy } from "react-icons/si";
+import { FaCertificate } from "react-icons/fa";
+import { motion } from "framer-motion";
 
-const Experience = () => {
+const Certification = () => {
   const containerVariants = {
     hidden: { opacity: 0, y: 50 },
     visible: {
@@ -18,13 +17,13 @@ const Experience = () => {
     visible: { opacity: 1, x: 0, transition: { duration: 0.5 } },
   };
 
-  const techIconVariants = {
+  const iconVariants = {
     hover: { scale: 1.2, transition: { duration: 0.3 } },
   };
 
   return (
     <motion.section
-      id="internships"
+      id="certifications"
       className="py-20 text-white"
       initial="hidden"
       whileInView="visible"
@@ -34,95 +33,65 @@ const Experience = () => {
         className="text-4xl font-bold text-center mb-8"
         variants={itemVariants}
       >
-        Internship Experience
+        Certifications
       </motion.h2>
+
       <motion.div className="max-w-5xl mx-auto" variants={itemVariants}>
+        {/* NPTEL Certification */}
         <motion.div
           className="p-6 rounded-lg shadow-lg mb-8"
           whileHover={{ scale: 1.02 }}
         >
           <motion.h3 className="text-3xl font-semibold" variants={itemVariants}>
-            MERN Stack Developer Intern
+            The Joy of Computing Using Python
           </motion.h3>
           <motion.p className="text-lg mt-2" variants={itemVariants}>
-            Company Name - Synnefo Solution
+            Certification by NPTEL - 2024
           </motion.p>
-          <motion.p className="text-sm mb-4" variants={itemVariants}>
-            Aug 2024 - February 2025
-          </motion.p>
-
-          <motion.ul
-            className="list-disc pl-6 mt-4"
-            initial="hidden"
-            animate="visible"
-            variants={containerVariants}
-          >
-            {[
-              'Developed and maintained web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js).',
-              'Collaborated with the team to design responsive and user-friendly UI components in React.js.',
-              'Implemented RESTful APIs using Express.js and Node.js, ensuring smooth data integration and communication.',
-              'Worked with MongoDB to store and retrieve data efficiently.',
-              'Participated in code reviews, learning from senior developers, and improved the quality of the codebase.',
-              'Optimized application performance by identifying and fixing bottlenecks in front-end and back-end components.',
-            ].map((text, index) => (
-              <motion.li key={index} variants={itemVariants}>
-                {text}
-              </motion.li>
-            ))}
+          <motion.ul className="list-disc pl-6 mt-4" variants={containerVariants}>
+            <motion.li variants={itemVariants}>
+              Learned foundational Python concepts through real-world problem-solving.
+            </motion.li>
+            <motion.li variants={itemVariants}>
+              Worked on logic building, control statements, loops, and basic data structures.
+            </motion.li>
+            <motion.li variants={itemVariants}>
+              Gained insight into computational thinking and basic automation tasks.
+            </motion.li>
           </motion.ul>
+        </motion.div>
 
-          <div className="mt-6">
-            <motion.p className="font-semibold" variants={itemVariants}>
-              Key Achievements:
-            </motion.p>
-            <motion.ul
-              className="list-inside list-disc mt-2"
-              variants={containerVariants}
-            >
-              {[
-                'Successfully built and deployed an e-commerce website prototype using MERN stack.',
-                'Gained proficiency in Git, GitHub, and agile workflows.',
-                'Enhanced problem-solving and debugging skills by working on real-world challenges.',
-              ].map((text, index) => (
-                <motion.li key={index} variants={itemVariants}>
-                  {text}
-                </motion.li>
-              ))}
-            </motion.ul>
-          </div>
+        {/* Santhisoft Course */}
+        <motion.div
+          className="p-6 rounded-lg shadow-lg mb-8"
+          whileHover={{ scale: 1.02 }}
+        >
+          <motion.h3 className="text-3xl font-semibold" variants={itemVariants}>
+            Core Python with Tkinter
+          </motion.h3>
+          <motion.p className="text-lg mt-2" variants={itemVariants}>
+            Course by Santhisoft Technologies
+          </motion.p>
+          <motion.ul className="list-disc pl-6 mt-4" variants={containerVariants}>
+            <motion.li variants={itemVariants}>
+              Built GUI applications using Tkinter.
+            </motion.li>
+            <motion.li variants={itemVariants}>
+              Applied OOP principles and Python functions to create real-time apps.
+            </motion.li>
+            <motion.li variants={itemVariants}>
+              Developed mini projects like calculators and login systems.
+            </motion.li>
+          </motion.ul>
+        </motion.div>
 
-          {/* Optional: Add tech icons with hover effects */}
-          <motion.div className="flex space-x-4 mt-6" variants={containerVariants}>
-            <motion.div
-              variants={techIconVariants}
-              whileHover="hover"
-              className="text-cyan-400"
-            >
-              <FaReact className="text-4xl" />
-            </motion.div>
-            <motion.div
-              variants={techIconVariants}
-              whileHover="hover"
-              className="text-green-600"
-            >
-              <FaNodeJs className="text-4xl" />
-            </motion.div>
-            <motion.div
-              variants={techIconVariants}
-              whileHover="hover"
-              className="text-green-500"
-            >
-              <SiMongodb className="text-4xl" />
-            </motion.div>
-
-            <motion.div
-              variants={techIconVariants}
-              whileHover="hover"
-              className="text-green-500"
-            >
-            < SiExpress className="text-4xl" />
-            </motion.div>
-
+        {/* Tech Icons */}
+        <motion.div className="flex space-x-4 mt-6" variants={containerVariants}>
+          <motion.div variants={iconVariants} whileHover="hover" className="text-yellow-300">
+            <SiPython className="text-4xl" />
+          </motion.div>
+          <motion.div variants={iconVariants} whileHover="hover" className="text-indigo-400">
+            <FaCertificate className="text-4xl" />
           </motion.div>
         </motion.div>
       </motion.div>
@@ -130,4 +99,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Certification;

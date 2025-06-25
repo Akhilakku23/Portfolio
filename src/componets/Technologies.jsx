@@ -1,29 +1,26 @@
-
-import { FaNodeJs } from "react-icons/fa";
-import { RiReactjsLine } from "react-icons/ri";
-import { SiMongodb, SiExpress, SiTailwindcss, SiHtml5, SiCss3, SiJavascript } from "react-icons/si";
+import { FaNodeJs, FaJava, FaHtml5, FaCss3Alt,FaPhp } from "react-icons/fa";
+import { SiJavascript, SiExpress, SiAngular } from "react-icons/si";
 import { motion } from "framer-motion";
 
-// Parent container animation
+// Animation variants
 const containerVariants = {
   hidden: { opacity: 0, y: 50 },
   visible: {
     opacity: 1,
     y: 0,
     transition: {
-      staggerChildren: 0.2, // Stagger effect
+      staggerChildren: 0.2,
       duration: 0.8,
       ease: "easeInOut",
     },
   },
 };
 
-// Icon bounce effect
 const iconVariants = {
   hidden: { opacity: 0, y: 30, scale: 0.8 },
   visible: {
     opacity: 1,
-    y: [0, -15, 0], // Bounce effect
+    y: [0, -15, 0],
     scale: 1,
     transition: {
       duration: 1.5,
@@ -36,14 +33,14 @@ const iconVariants = {
 
 const Technologies = () => {
   const techStack = [
-    { Icon: SiTailwindcss, color: "text-cyan-400", name: "Tailwind CSS" },
-    { Icon: SiHtml5, color: "text-orange-500", name: "HTML" },
-    { Icon: SiCss3, color: "text-blue-500", name: "CSS" },
+     { Icon: FaHtml5, color: "text-orange-500", name: "HTML" },
+    { Icon: FaCss3Alt, color: "text-blue-500", name: "CSS" },
+     { Icon: FaPhp, color: "text-indigo-600", name: "PHP" },
+    { Icon: FaJava, color: "text-orange-700", name: "Java" },
     { Icon: SiJavascript, color: "text-yellow-400", name: "JavaScript" },
-    { Icon: RiReactjsLine, color: "text-cyan-400", name: "React" },
-    { Icon: SiExpress, color: "text-gray-800", name: "Express.js" },
-    { Icon: SiMongodb, color: "text-green-500", name: "MongoDB" },
+    { Icon: SiAngular, color: "text-red-600", name: "Angular" },
     { Icon: FaNodeJs, color: "text-green-500", name: "Node.js" },
+    { Icon: SiExpress, color: "text-gray-800", name: "Express.js" },
   ];
 
   return (
@@ -67,7 +64,7 @@ const Technologies = () => {
           <motion.div
             key={index}
             variants={iconVariants}
-            whileHover={{ scale: 1.2, rotate: 10 }} // Hover effect
+            whileHover={{ scale: 1.2, rotate: 10 }}
             className="flex flex-col items-center cursor-pointer transition-transform duration-300"
           >
             <Icon className={`text-7xl ${color}`} />
