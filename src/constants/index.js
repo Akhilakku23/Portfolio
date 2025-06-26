@@ -18,13 +18,26 @@ export const PROJECTS = [
   //   technologies: ["React.js, Node.js, Express.js, MongoDB"],
   // },
   
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["React.js, Node.js, Express.js, MongoDB, Framer Motion"],
-  },
+ {
+  title: "Personal Portfolio Website",
+  image: project3,
+  description:
+    "A fully responsive portfolio site built to showcase my projects, technical skills, and professional journey. Features smooth scroll animations, dark/light mode toggle, and a contact form integrated with EmailJS for direct inquiries.",
+  liveDemo: "https://akhiii-portfolio.netlify.app",
+  repo: "https://github.com/akhilsaji/akhiii-portfolio",
+  technologies: [
+    "React.js",
+    "Tailwind CSS",
+    "Framer Motion"
+  ],
+  highlights: [
+    "Implemented dark/light mode with persistent user preference via localStorage.",
+    "Animated section entrances and hover effects using Framer Motion.",
+    "Optimized images and code-splitting for sub-1 second First Contentful Paint.",
+    "Deployed on Netlify with automated CI/CD from GitHub."
+  ]
+},
+
   {
     title: "Real-estate website",
     image: project4,
