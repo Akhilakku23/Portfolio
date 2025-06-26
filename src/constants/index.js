@@ -10,17 +10,9 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 
 export const PROJECTS = [
-  // {
-  //   title: "E-Commerce Website",
-  //   image: project1,
-  //   description:
-  //     "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-  //   technologies: ["React.js, Node.js, Express.js, MongoDB"],
-  // },
-  
  {
   title: "Personal Portfolio Website",
-  image: project3,
+  image: project2,
   description:
     "A fully responsive portfolio site built to showcase my projects, technical skills, and professional journey. Features smooth scroll animations, dark/light mode toggle, and a contact form integrated with EmailJS for direct inquiries.",
   liveDemo: "https://akhiii-portfolio.netlify.app",
@@ -39,8 +31,16 @@ export const PROJECTS = [
 },
 
   {
+    title: "E-Commerce Website",
+    image: project1,
+    description:
+      "A full-stack web app for buying and selling clothes online. Users can browse apparel, filter by size or category, view product details, and place secure orders. Admins can manage inventory, track orders, and analyze sales. Built with a modern, responsive UI for a smooth fashion shopping experience.",
+    technologies: ["React.js, Node.js, Express.js, MongoDB, React Router DOM, React Testing Library"],
+  },
+  
+  {
     title: "Real-estate website",
-    image: project4,
+    image: project3,
     description:
       "It is a responsive real-time property listing and management platform that includes features like, dynamic property listings, secure user authentication, and real-time data synchronization.",
     technologies: ["React.js, Node.js, Express.js, MongoDB, Auth0"],
