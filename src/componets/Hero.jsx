@@ -81,7 +81,7 @@ const Hero = () => {
 
             <motion.a
               variants={childVariants}
-              href="AKhil_resume.pdf"
+              href="Akhil_Saji.pdf"
               target="_blank"
               rel="noopener noreferrer"
               download
