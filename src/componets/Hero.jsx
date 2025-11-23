@@ -1,4 +1,4 @@
-import profilePic from '../assets/akhilprofile.webp.png';
+import profilePic from '../assets/hero.jpg';
 import { motion } from 'framer-motion';
 
 const containerVariants = {
@@ -81,7 +81,7 @@ const Hero = () => {
 
             <motion.a
               variants={childVariants}
-              href="AKhil_Saji_developer.pdf"
+              href="AKhil_resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               download

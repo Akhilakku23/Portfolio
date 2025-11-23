@@ -1,7 +1,7 @@
 
 import { FaNodeJs } from "react-icons/fa";
 import { RiReactjsLine } from "react-icons/ri";
-import { SiMongodb, SiExpress, SiTailwindcss, SiHtml5, SiCss3, SiJavascript } from "react-icons/si";
+import { SiMongodb, SiExpress, SiTailwindcss, SiHtml5, SiCss3, SiJavascript ,SiPython, SiDjango } from "react-icons/si";
 import { motion } from "framer-motion";
 
 // Parent container animation
@@ -44,6 +44,8 @@ const Technologies = () => {
     { Icon: SiExpress, color: "text-gray-800", name: "Express.js" },
     { Icon: SiMongodb, color: "text-green-500", name: "MongoDB" },
     { Icon: FaNodeJs, color: "text-green-500", name: "Node.js" },
+    { Icon: SiPython, color: "text-blue-400", name: "Python" },
+  { Icon: SiDjango, color: "text-green-700", name: "Django" },
   ];
 
   return (

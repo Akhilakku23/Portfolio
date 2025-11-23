@@ -49,6 +49,6 @@ export const PROJECTS = [
 
 export const CONTACT = {
   address: "Thodupuzha,idukki,kerala ",
-  phoneNo: "7909 2027 67 ",
+  phoneNo: "+91 7909 2027 67 ",
   email: "akhilsaji0031@gmail.com",
 };
